@@ -53,11 +53,22 @@ jobs:
     needs: cypress-e2e-electron
     runs-on: ubuntu-latest
     container:
-      image: cypress/browsers:node-22.14.0-chrome-134.0.6998.88-1-ff-136.0.2-edge-134.0.3124.68-1
+      image: cypress/browsers:node-22.14.0-chrome-134.0.6998.165-1-ff-136.0.3-edge-134.0.3124.85-1
       options: --user 1001
     steps: 
       - name: Get code
         uses: actions/checkout@v4.2.2
+      
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Start Xvfb
+        run: |
+          Xvfb :99 -screen 0 1280x1024x16 &
+          export DISPLAY=:99
+
+      - name: Verify Firefox installation
+        run: firefox --version
 
       - name: Cypress run
         uses: cypress-io/github-action@v6.5.0
