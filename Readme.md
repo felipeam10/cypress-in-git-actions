@@ -1,32 +1,25 @@
-![poster](./.github/poster.png)
+# **Continuous Testing Workflow with Cypress**
 
-## Sobre
+This project demonstrates how to implement a **Continuous Testing Workflow** using **Cypress** and **GitHub Actions**, with optional integration to **Cypress Cloud** and **Tesults** for test result reporting.
 
-Repositório do treinamento: Workflow de testes contínuos em Cypress no Github Actions
+## **Description**
+The goal of this project is to automate end-to-end tests for a login system, execute them in a controlled environment, and generate detailed reports. The workflow supports **multi-browser testing** and provides metrics to enhance the development process.
 
-## Stacks
-- Cypress
-- Javascript
-- Cypress Dashboard
-- Tesults
+## **Features**
+- Continuous testing workflow with **Cypress**.
+- Multi-browser testing (Electron, Chrome, Firefox).
+- Integration with **Cypress Cloud** and **Tesults** for result storage and analysis.
+- Automated execution via **GitHub Actions**.
 
-## Rodando
+## **Setup**
+### **Prerequisites**
+1. **Node.js** (version 14 or higher).
+2. **Yarn** (package manager).
+3. A **GitHub** account for repository management.
+4. Optional: **Cypress Cloud** or **Tesults** accounts for result reporting.
 
-1. Clonar o repositório, instalar as dependências
-```
-yarn / npm install
-```
-
-2. Subir o Cypress UI
-```
-yarn cypress open / npx cypress open 
-```
-
-3. Executar testes em Headless
-```
-yarn cypress run / npx cypress run 
-```
-
-<hr>
-Curso disponível em https://qaxperience.com
-
+### **Installation**
+1. Clone the repository:
+   ```bash
+   git clone <REPOSITORY_URL>
+   cd <REPOSITORY_NAME>
