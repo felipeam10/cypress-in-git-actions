@@ -13,8 +13,8 @@ The goal of this project is to automate end-to-end tests for a login system, exe
 
 ## **Setup**
 ### **Prerequisites**
-1. **Node.js** (version 14 or higher).
-2. **Yarn** (package manager).
+1. **Node.js** v18.20.4
+2. **Yarn** 1.22.22
 3. A **GitHub** account for repository management.
 4. Optional: **Cypress Cloud** or **Tesults** accounts for result reporting.
 
