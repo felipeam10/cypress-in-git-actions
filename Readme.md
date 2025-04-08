@@ -21,5 +21,5 @@ The goal of this project is to automate end-to-end tests for a login system, exe
 ### **Installation**
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/felipeam10/cypress-in-git-actions>
-   cd <cypress-in-git-actions>
+   git clone [cypress-in-git-actions](https://github.com/felipeam10/cypress-in-git-actions)
+   cd yourPath/cypress-in-git-actions
