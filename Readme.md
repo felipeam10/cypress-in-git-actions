@@ -20,7 +20,7 @@ The goal of this project is to automate end-to-end tests for a login system, exe
 
 ### **Installation**
 1. Clone the repository:
-   ```bash
+   
    git clone [cypress-in-git-actions](https://github.com/felipeam10/cypress-in-git-actions)
-   This project tests the project: [BackEndFilmes](https://gitlab.com/brunobatista25/BackEndFilmes)
+   
    cd yourPath/cypress-in-git-actions
